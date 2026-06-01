@@ -20,13 +20,6 @@ if (isset($_SESSION['user'])) {
 <!-- Add this in your <head> section -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
-<div class="sidebar-header">
-  <button class="menu-toggle" onclick="w3_open();">
-    <i class="fas fa-bars"></i>
-  </button>
-  <span class="logo"><?php echo NAME_X; ?></span>
-</div>
-
 <!-- Sidebar/menu -->
 <nav class="sidebar" id="mySidebar">
   <div class="user-profile">
@@ -127,7 +120,13 @@ if (isset($_SESSION['user'])) {
               <span>Manage Pigs Batch</span>
             </a>
           </li>
-          
+          <li>
+            <a href="pig-batch-history.php" class="menu-link">
+              <i class="fas fa-piggy-bank"></i>
+              <span>Manage Pigs Batch History</span>
+            </a>
+          </li>
+         
           <li>
             <a href="manage-breed.php" class="menu-link">
               <i class="fas fa-dna"></i>
@@ -277,17 +276,6 @@ if (isset($_SESSION['user'])) {
     --settings-hover: #ff7e5f;
   }
 
-  /* Sidebar header */
-  .sidebar-header {
-    background-color: var(--sidebar-bg);
-    padding: 15px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: white;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    border-bottom: 1.5px solid rgba(255,255,255,0.09);
-  }
 
   .menu-toggle {
     background: none;

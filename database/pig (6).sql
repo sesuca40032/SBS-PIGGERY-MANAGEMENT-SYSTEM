@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 30, 2025 at 03:42 PM
+-- Generation Time: Mar 10, 2026 at 07:19 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -596,7 +596,130 @@ INSERT INTO `audit_logs` (`id`, `user_id`, `action`, `details`, `ip_address`, `s
 (551, 1, 'login_success', 'User logged in successfully', '127.0.0.1', 'success', '2025-07-30 16:25:24'),
 (552, 1, 'logout', 'User admin5 logged out from 127.0.0.1', '127.0.0.1', 'success', '2025-07-30 16:28:24'),
 (553, 1, 'login_success', 'User logged in successfully', '127.0.0.1', 'success', '2025-07-30 19:35:27'),
-(554, 1, 'login_success', 'User logged in successfully', '127.0.0.1', 'success', '2025-07-30 19:58:51');
+(554, 1, 'login_success', 'User logged in successfully', '127.0.0.1', 'success', '2025-07-30 19:58:51'),
+(555, 1, 'logout', 'User admin5 logged out from 127.0.0.1', '127.0.0.1', 'success', '2025-07-31 01:39:51'),
+(556, 1, 'login_success', 'User logged in successfully', '127.0.0.1', 'success', '2025-07-31 01:54:58'),
+(557, 1, 'logout', 'User admin5 logged out from 127.0.0.1', '127.0.0.1', 'success', '2025-07-31 01:55:01'),
+(558, 1, 'login_success', 'User logged in successfully', '127.0.0.1', 'success', '2025-07-31 13:38:44'),
+(559, 1, 'login_success', 'User logged in successfully', '127.0.0.1', 'success', '2025-08-05 13:40:57'),
+(560, 0, 'login_failed', 'Failed login attempt for username: admin5', '127.0.0.1', 'failed', '2025-08-05 23:08:59'),
+(561, 1, 'login_success', 'User logged in successfully', '127.0.0.1', 'success', '2025-08-05 23:09:17'),
+(562, 1, 'login_success', 'User logged in successfully', '127.0.0.1', 'success', '2025-08-05 23:18:50'),
+(563, 1, 'login_success', 'User logged in successfully', '127.0.0.1', 'success', '2025-08-12 09:51:32'),
+(564, 1, 'logout', 'User admin5 logged out from 127.0.0.1', '127.0.0.1', 'success', '2025-08-12 09:59:25'),
+(565, 0, 'login_failed', 'Failed login attempt for username: admin', '127.0.0.1', 'failed', '2025-08-12 10:40:06'),
+(566, 1, 'login_success', 'User logged in successfully', '127.0.0.1', 'success', '2025-08-12 11:30:33'),
+(567, 1, 'login_success', 'User logged in successfully', '127.0.0.1', 'success', '2025-08-12 12:53:54'),
+(568, 1, 'login_success', 'User logged in successfully', '127.0.0.1', 'success', '2025-09-10 14:19:05'),
+(569, 1, 'page_access', 'Accessed Add New Batch page - Farm Production Batch', '127.0.0.1', 'Success', '2025-09-10 14:29:32'),
+(570, 1, 'page_access', 'Accessed Add New Batch page - Farm Production Batch', '127.0.0.1', 'Success', '2025-09-10 14:29:32'),
+(571, 1, 'pig_count_change', 'Updated total count to 10', '127.0.0.1', 'Success', '2025-09-10 14:30:16'),
+(572, 1, 'breed_selection', 'Selected breed: Crossbreed', '127.0.0.1', 'Success', '2025-09-10 14:30:17'),
+(573, 1, 'sow_selection', 'Selected sow ID: 25', '127.0.0.1', 'Success', '2025-09-10 14:30:20'),
+(574, 1, 'weight_input', 'Entered average weight: 3 kg', '127.0.0.1', 'Success', '2025-09-10 14:30:32'),
+(575, 1, 'pig_count_change', 'Updated male count to 5', '127.0.0.1', 'Success', '2025-09-10 14:30:35'),
+(576, 1, 'pig_count_change', 'Updated female count to 5', '127.0.0.1', 'Success', '2025-09-10 14:30:37'),
+(577, 1, 'batch_submission_attempt', 'Attempting to submit batch data', '127.0.0.1', 'Success', '2025-09-10 14:30:50'),
+(578, 1, 'page_access', 'Accessed Add New Batch page - Farm Production Batch', '127.0.0.1', 'Success', '2025-09-10 14:31:05'),
+(579, 1, 'page_access', 'Accessed Add New Batch page - Farm Production Batch', '127.0.0.1', 'Success', '2025-09-10 14:31:05'),
+(580, 1, 'page_access', 'Accessed Add New Batch page - Farm Production Batch', '127.0.0.1', 'Success', '2025-09-10 14:35:39'),
+(581, 1, 'page_access', 'Accessed Add New Batch page - Farm Production Batch', '127.0.0.1', 'Success', '2025-09-10 14:35:39'),
+(582, 1, 'breed_selection', 'Selected breed: type4', '127.0.0.1', 'Success', '2025-09-10 14:35:47'),
+(583, 1, 'pig_count_change', 'Updated total count to 4', '127.0.0.1', 'Success', '2025-09-10 14:35:50'),
+(584, 1, 'pig_count_change', 'Updated male count to 2', '127.0.0.1', 'Success', '2025-09-10 14:35:51'),
+(585, 1, 'pig_count_change', 'Updated female count to 2', '127.0.0.1', 'Success', '2025-09-10 14:35:53'),
+(586, 1, 'weight_input', 'Entered average weight: 2 kg', '127.0.0.1', 'Success', '2025-09-10 14:35:55'),
+(587, 1, 'sow_selection', 'Selected sow ID: 20', '127.0.0.1', 'Success', '2025-09-10 14:35:58'),
+(588, 1, 'batch_submission_attempt', 'Attempting to submit batch data', '127.0.0.1', 'Success', '2025-09-10 14:36:08'),
+(589, 1, 'logout', 'User admin5 logged out from 127.0.0.1', '127.0.0.1', 'success', '2025-09-10 14:37:55'),
+(590, 0, 'login_failed', 'Failed login attempt for username: test', '127.0.0.1', 'failed', '2025-09-10 14:38:03'),
+(591, 0, 'login_failed', 'Failed login attempt for username: test', '127.0.0.1', 'failed', '2025-09-10 14:38:12'),
+(592, 0, 'login_failed', 'Failed login attempt for username: admin', '127.0.0.1', 'failed', '2025-09-10 14:38:24'),
+(593, 1, 'login_success', 'User logged in successfully', '127.0.0.1', 'success', '2025-09-10 14:38:31'),
+(594, 1, 'logout', 'User admin5 logged out from 127.0.0.1', '127.0.0.1', 'success', '2025-09-10 14:39:08'),
+(595, 0, 'login_failed', 'Failed login attempt for username: idolmongsexy', '127.0.0.1', 'failed', '2025-09-10 14:39:20'),
+(596, 10, 'login_success', 'User logged in successfully', '127.0.0.1', 'success', '2025-09-10 14:39:24'),
+(597, 10, 'logout', 'User Yza logged out from 127.0.0.1', '127.0.0.1', 'success', '2025-09-10 14:40:39'),
+(598, 0, 'login_failed', 'Failed login attempt for username: admin', '127.0.0.1', 'failed', '2025-09-10 14:40:45'),
+(599, 10, 'login_success', 'User logged in successfully', '127.0.0.1', 'success', '2025-09-10 14:40:56'),
+(600, 10, 'logout', 'User Yza logged out from 127.0.0.1', '127.0.0.1', 'success', '2025-09-10 14:40:58'),
+(601, 0, 'login_failed', 'Failed login attempt for username: test', '127.0.0.1', 'failed', '2025-09-10 14:41:06'),
+(602, 1, 'login_success', 'User logged in successfully', '127.0.0.1', 'success', '2025-09-10 14:41:13'),
+(603, 1, 'logout', 'User admin5 logged out from 127.0.0.1', '127.0.0.1', 'success', '2025-09-10 14:42:06'),
+(604, 0, 'login_failed', 'Failed login attempt for username: test3', '127.0.0.1', 'failed', '2025-09-10 14:42:10'),
+(605, 10, 'login_success', 'User logged in successfully', '127.0.0.1', 'success', '2025-09-10 14:42:55'),
+(606, 10, 'logout', 'User Yza logged out from 127.0.0.1', '127.0.0.1', 'success', '2025-09-10 14:43:52'),
+(607, 1, 'login_success', 'User logged in successfully', '127.0.0.1', 'success', '2025-09-10 14:50:38'),
+(608, 1, 'page_access', 'Accessed Add New Batch page - Farm Production Batch', '127.0.0.1', 'Success', '2025-09-10 15:22:36'),
+(609, 1, 'page_access', 'Accessed Add New Batch page - Farm Production Batch', '127.0.0.1', 'Success', '2025-09-10 15:22:36'),
+(610, 1, 'page_access', 'Accessed Add New Batch page - Farm Production Batch', '127.0.0.1', 'Success', '2025-09-10 15:22:42'),
+(611, 1, 'page_access', 'Accessed Add New Batch page - Farm Production Batch', '127.0.0.1', 'Success', '2025-09-10 15:22:42'),
+(612, 1, 'logout', 'User admin5 logged out from 127.0.0.1', '127.0.0.1', 'success', '2025-09-10 15:23:20'),
+(613, 1, 'login_success', 'User logged in successfully', '127.0.0.1', 'success', '2025-09-10 15:58:42'),
+(614, 1, 'login_success', 'User logged in successfully', '127.0.0.1', 'success', '2025-09-10 16:25:45'),
+(615, 1, 'page_access', 'Accessed Add New Batch page - Farm Production Batch', '127.0.0.1', 'Success', '2025-09-10 16:39:05'),
+(616, 1, 'page_access', 'Accessed Add New Batch page - Farm Production Batch', '127.0.0.1', 'Success', '2025-09-10 16:39:05'),
+(617, 1, 'sow_selection', 'Selected sow ID: 21', '127.0.0.1', 'Success', '2025-09-10 16:44:13'),
+(618, 1, 'breed_selection', 'Selected breed: Crossbreed', '127.0.0.1', 'Success', '2025-09-10 16:44:18'),
+(619, 1, 'login_success', 'User logged in successfully', '127.0.0.1', 'success', '2025-09-11 10:47:36'),
+(620, 1, 'login_success', 'User logged in successfully', '127.0.0.1', 'success', '2025-09-11 11:45:19'),
+(621, 1, 'login_success', 'User logged in successfully', '127.0.0.1', 'success', '2025-09-11 13:06:14'),
+(622, 1, 'logout', 'User admin5 logged out from 127.0.0.1', '127.0.0.1', 'success', '2025-09-11 14:59:37'),
+(623, 1, 'login_success', 'User logged in successfully', '127.0.0.1', 'success', '2025-09-11 22:06:53'),
+(624, 1, 'login_success', 'User logged in successfully', '127.0.0.1', 'success', '2025-09-12 08:30:28'),
+(625, 1, 'login_success', 'User logged in successfully', '127.0.0.1', 'success', '2025-09-30 14:33:00'),
+(626, 1, 'page_access', 'Accessed Add New Batch page - Farm Production Batch', '127.0.0.1', 'Success', '2025-09-30 14:33:32'),
+(627, 1, 'page_access', 'Accessed Add New Batch page - Farm Production Batch', '127.0.0.1', 'Success', '2025-09-30 14:33:32'),
+(628, 1, 'login_success', 'User logged in successfully', '127.0.0.1', 'success', '2025-10-02 10:17:21'),
+(629, 1, 'login_success', 'User logged in successfully', '127.0.0.1', 'success', '2025-10-02 21:54:06'),
+(630, 1, 'login_success', 'User logged in successfully', '127.0.0.1', 'success', '2025-10-02 21:56:21'),
+(631, 1, 'page_access', 'Accessed Add New Batch page - Farm Production Batch', '127.0.0.1', 'Success', '2025-10-02 22:12:47'),
+(632, 1, 'page_access', 'Accessed Add New Batch page - Farm Production Batch', '127.0.0.1', 'Success', '2025-10-02 22:12:48'),
+(633, 1, 'page_access', 'Accessed Add New Batch page - External Purchase Batch', '127.0.0.1', 'Success', '2025-10-02 22:12:56'),
+(634, 1, 'page_access', 'Accessed Add New Batch page - External Purchase Batch', '127.0.0.1', 'Success', '2025-10-02 22:12:56'),
+(635, 1, 'logout', 'User admin5 logged out from 127.0.0.1', '127.0.0.1', 'success', '2025-10-02 22:20:31'),
+(636, 1, 'login_success', 'User logged in successfully', '127.0.0.1', 'success', '2025-10-02 22:20:39'),
+(637, 1, 'login_success', 'User logged in successfully', '127.0.0.1', 'success', '2025-10-03 05:42:27'),
+(638, 1, 'logout', 'User admin5 logged out from 127.0.0.1', '127.0.0.1', 'success', '2025-10-03 06:01:02'),
+(639, 0, 'login_failed', 'Failed login attempt for username: teste', '127.0.0.1', 'failed', '2025-10-03 06:01:09'),
+(640, 0, 'login_failed', 'Failed login attempt for username: teste', '127.0.0.1', 'failed', '2025-10-03 06:08:05'),
+(641, 0, 'login_failed', 'Failed login attempt for username: teste', '127.0.0.1', 'failed', '2025-10-03 06:08:10'),
+(642, 0, 'login_failed', 'Failed login attempt for username: teste', '127.0.0.1', 'failed', '2025-10-03 06:08:15'),
+(643, 0, 'login_failed', 'Failed login attempt for username: admin', '127.0.0.1', 'failed', '2025-10-03 06:08:20'),
+(644, 0, 'login_failed', 'Failed login attempt for username: admin', '127.0.0.1', 'failed', '2025-10-03 06:08:27'),
+(645, 0, 'login_failed', 'Failed login attempt for username: admin', '127.0.0.1', 'failed', '2025-10-03 06:08:37'),
+(646, 1, 'login_success', 'User logged in successfully', '127.0.0.1', 'success', '2025-10-03 06:08:45'),
+(647, 1, 'logout', 'User admin5 logged out from 127.0.0.1', '127.0.0.1', 'success', '2025-10-03 06:08:49'),
+(648, 0, 'login_failed', 'Failed login attempt for username: test3', '127.0.0.1', 'failed', '2025-10-03 06:08:56'),
+(649, 10, 'login_success', 'User logged in successfully', '127.0.0.1', 'success', '2025-10-03 06:09:03'),
+(650, 10, 'logout', 'User Yza logged out from 127.0.0.1', '127.0.0.1', 'success', '2025-10-03 06:09:07'),
+(651, 0, 'login_failed', 'Failed login attempt for username: idolmongsexy', '127.0.0.1', 'failed', '2025-10-03 06:09:51'),
+(652, 18, 'login_success', 'User logged in successfully', '127.0.0.1', 'success', '2025-10-03 06:10:39'),
+(653, 18, 'logout', 'User idolmongsexy logged out from 127.0.0.1', '127.0.0.1', 'success', '2025-10-03 06:15:40'),
+(654, 1, 'login_success', 'User logged in successfully', '127.0.0.1', 'success', '2025-10-03 06:15:47'),
+(655, 1, 'logout', 'User admin5 logged out from 127.0.0.1', '127.0.0.1', 'success', '2025-10-03 06:16:31'),
+(656, 0, 'login_failed', 'Failed login attempt for username: tetse34', '127.0.0.1', 'failed', '2025-10-03 06:16:36'),
+(657, 1, 'login_success', 'User logged in successfully', '127.0.0.1', 'success', '2025-10-03 06:22:48'),
+(658, 1, 'logout', 'User admin5 logged out from 127.0.0.1', '127.0.0.1', 'success', '2025-10-03 06:24:41'),
+(659, 0, 'login_failed', 'Failed login attempt for username: SESUCA', '127.0.0.1', 'failed', '2025-10-03 06:24:47'),
+(660, 0, 'login_failed', 'Failed login attempt for username: SESUCA', '127.0.0.1', 'failed', '2025-10-03 06:24:56'),
+(661, 1, 'login_success', 'User logged in successfully', '127.0.0.1', 'success', '2025-10-03 06:26:13'),
+(662, 1, 'logout', 'User admin5 logged out from 127.0.0.1', '127.0.0.1', 'success', '2025-10-03 06:27:00'),
+(663, 21, 'login_success', 'User logged in successfully', '127.0.0.1', 'success', '2025-10-03 06:27:06'),
+(664, 21, 'logout', 'User 1562 logged out from 127.0.0.1', '127.0.0.1', 'success', '2025-10-03 06:29:22'),
+(665, 1, 'login_success', 'User logged in successfully', '127.0.0.1', 'success', '2025-10-03 06:29:28'),
+(666, 1, 'logout', 'User admin5 logged out from 127.0.0.1', '127.0.0.1', 'success', '2025-10-03 06:29:42'),
+(667, 1, 'login_success', 'User logged in successfully', '127.0.0.1', 'success', '2025-10-03 11:01:16'),
+(668, 1, 'logout', 'User admin5 logged out from 127.0.0.1', '127.0.0.1', 'success', '2025-10-03 11:27:07'),
+(669, 1, 'login_success', 'User logged in successfully', '127.0.0.1', 'success', '2025-10-03 11:27:47'),
+(670, 1, 'page_access', 'Accessed Add New Batch page - External Purchase Batch', '127.0.0.1', 'Success', '2025-10-03 11:37:38'),
+(671, 1, 'page_access', 'Accessed Add New Batch page - External Purchase Batch', '127.0.0.1', 'Success', '2025-10-03 11:37:39'),
+(672, 1, 'login_success', 'User logged in successfully', '127.0.0.1', 'success', '2025-11-05 00:23:28'),
+(673, 1, 'login_success', 'User logged in successfully', '127.0.0.1', 'success', '2025-11-17 10:30:35'),
+(674, 1, 'login_success', 'User logged in successfully', '127.0.0.1', 'success', '2025-12-05 13:44:46'),
+(675, 1, 'login_success', 'User logged in successfully', '127.0.0.1', 'success', '2026-01-05 15:18:32'),
+(676, 1, 'login_success', 'User logged in successfully', '127.0.0.1', 'success', '2026-02-06 15:44:55'),
+(677, 1, 'login_success', 'User logged in successfully', '127.0.0.1', 'success', '2026-02-24 19:57:13');
 
 -- --------------------------------------------------------
 
@@ -626,7 +749,9 @@ INSERT INTO `batch_pens` (`id`, `batch_id`, `pen_id`, `pigs_assigned`) VALUES
 (15, 'BATCH-20250729154018', 9, 5),
 (16, 'BATCH-20250729154207', 9, 3),
 (17, 'BATCH-20250729155636', 11, 5),
-(19, 'BATCH-20250508150734', 12, 12);
+(19, 'BATCH-20250508150734', 12, 12),
+(20, 'BATCH-20250910082932', 17, 10),
+(21, 'BATCH-20250910083539', 12, 4);
 
 -- --------------------------------------------------------
 
@@ -647,11 +772,13 @@ INSERT INTO `breed` (`id`, `name`) VALUES
 (7, 'Crossbreed'),
 (3, 'Duroc'),
 (6, 'F1'),
+(10, 'F112'),
 (1, 'Hampshire'),
 (5, 'Landrace'),
 (4, 'Large White'),
 (2, 'Native'),
-(8, 'other');
+(8, 'other'),
+(9, 'type4');
 
 -- --------------------------------------------------------
 
@@ -697,7 +824,7 @@ CREATE TABLE `feed_inventory` (
 --
 
 INSERT INTO `feed_inventory` (`id`, `name`, `type`, `quantity_kg`, `expiry_date`, `supplier`) VALUES
-(3, 'b-meg', 'starter', 100, NULL, 'jlc farm suupplies');
+(5, 'uno', 'starter', 50, '2025-09-08', 'jlc farm suupplies');
 
 -- --------------------------------------------------------
 
@@ -775,7 +902,7 @@ CREATE TABLE `info_sections` (
 --
 
 INSERT INTO `info_sections` (`id`, `about_us`, `features`, `farming_tips`, `created_at`, `updated_at`) VALUES
-(1, 'PIGGERY MANAGEMENT SYSTEM is a comprehensive hog farming management system developed by agricultural technology experts with decades of combined experience in piggery operations.\r\n\r\nOur mission is to empower farmers with technology that simplifies complex farming operations while improving productivity and profitability through data-driven insights.\r\n\r\nThe system has been field-tested on commercial farms and smallholder operations to ensure it meets the diverse needs of the hog farming community.', '', '', '2025-07-29 22:15:31', '2025-07-29 22:27:03');
+(1, 'PIGGERY MANAGEMENT SYSTEM is a comprehensive hog farming management system developed by agricultural technology experts with decades of combined experience in piggery operations.\r\n\r\nOur mission is to empower farmers with technology that simplifies complex farming operations while improving productivity and profitability through data-driven insights.\r\n\r\nThe system has been field-tested on commercial farms and smallholder operations to ensure it meets the diverse needs of the hog farming community.', '', '', '2025-07-29 22:15:31', '2025-07-31 01:18:09');
 
 -- --------------------------------------------------------
 
@@ -915,7 +1042,6 @@ CREATE TABLE `pig_batches` (
   `total_pigs` int(11) NOT NULL,
   `male_count` int(11) DEFAULT 0,
   `female_count` int(11) DEFAULT 0,
-  `deceased_count` int(11) DEFAULT 0,
   `weight_avg` decimal(5,2) DEFAULT NULL COMMENT 'Average weight in kg',
   `status` enum('active','quarantined','sold','deceased') DEFAULT 'active',
   `location` varchar(50) DEFAULT NULL,
@@ -924,32 +1050,35 @@ CREATE TABLE `pig_batches` (
   `batch_date` date DEFAULT NULL,
   `qr_code` varchar(255) DEFAULT NULL,
   `nursery_transfer_type` varchar(16) DEFAULT NULL,
-  `nursery_transfer_date` date DEFAULT NULL
+  `nursery_transfer_date` date DEFAULT NULL,
+  `deceased_count` int(11) DEFAULT 0
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `pig_batches`
 --
 
-INSERT INTO `pig_batches` (`id`, `batch_id`, `photo`, `source`, `sow_id`, `breed_id`, `birth_date`, `total_pigs`, `male_count`, `female_count`, `deceased_count`, `weight_avg`, `status`, `location`, `remark`, `created_at`, `batch_date`, `qr_code`, `nursery_transfer_type`, `nursery_transfer_date`) VALUES
-(1, 'BATCH-20250508150734', 'uploads/batches/BATCH-20250508150734.jpg', 'farm', 25, 1, '2025-03-07', 7, 6, 4, 0, 0.92, 'active', '', 'TEST', '2025-05-08 13:08:22', NULL, 'qrcodes/batch_BATCH-20250508150734.png', NULL, NULL),
-(2, 'BATCH-20250518151927', 'uploads/360_F_645220217_IyiCC4Rdh3eVjaThrAxLWQhV9CrQIphk.jpg', 'farm', 24, 3, '2025-05-10', 10, 5, 5, 0, 2.00, 'active', '5', 'test', '2025-05-18 13:20:50', NULL, NULL, NULL, NULL),
-(3, 'BATCH-20250518152329', 'uploads/batches/BATCH-20250518152329.jpg', 'farm', 24, 1, '2025-05-03', 8, 3, 5, 0, 3.00, 'active', '5', 'rer', '2025-05-18 13:24:16', NULL, NULL, NULL, NULL),
-(4, 'BATCH-20250518154138', 'uploads/batches/BATCH-20250518154138.jpg', 'external', NULL, 1, '2025-04-12', 0, 0, 0, 0, 2.00, 'sold', '2', 'texs', '2025-05-18 13:42:44', NULL, NULL, NULL, NULL),
-(5, 'BATCH-20250518162911', 'uploads/batches/BATCH-20250518162911.jpg', 'farm', 22, 5, '2025-05-07', 9, 2, 7, 0, 0.00, 'active', '', '', '2025-05-18 14:30:12', NULL, NULL, NULL, NULL),
-(6, 'BATCH-20250518212150', 'uploads/batches/BATCH-20250518212150.jpg', 'farm', 22, 3, '2025-05-05', 10, 7, 3, 0, 2.00, 'active', 'nursery', 'tr', '2025-05-18 19:22:52', NULL, NULL, NULL, NULL),
-(7, 'BATCH-20250518212729', 'uploads/batches/BATCH-20250518212729.jpg', 'farm', 22, 1, '2025-04-23', 12, 4, 8, 0, 2.00, 'active', 'fattening', 're', '2025-05-18 19:28:08', NULL, NULL, NULL, NULL),
-(8, 'BATCH-20250518213805', 'uploads/batches/BATCH-20250518213805.jpg', 'farm', 22, 3, '2025-05-10', 10, 3, 7, 0, 2.00, 'active', 'nursery', 're', '2025-05-18 19:38:32', NULL, NULL, NULL, NULL),
-(9, 'BATCH-20250522180552', 'uploads/67f228783bfa8_images (1).jpg', 'farm', 20, 3, '2025-05-17', 12, 6, 6, 0, 2.00, 'active', NULL, '', '2025-05-22 16:06:39', NULL, NULL, NULL, NULL),
-(10, 'BATCH-20250522182555', 'uploads/batches/BATCH-20250522182555.jpg', 'farm', 21, 3, '2025-05-17', 15, 10, 5, 0, 2.00, 'active', NULL, '', '2025-05-22 16:26:43', NULL, NULL, NULL, NULL),
-(11, 'BATCH-20250522185030', 'uploads/360_F_645220217_IyiCC4Rdh3eVjaThrAxLWQhV9CrQIphk.jpg', 'farm', 20, 1, '2025-05-01', 10, 5, 5, 0, 3.00, 'active', '', '', '2025-05-22 16:52:01', NULL, NULL, NULL, NULL),
-(12, 'BATCH-20250522191120', 'uploads/batches/BATCH-20250522191120.jpg', 'farm', 21, 3, '2025-03-15', 10, 5, 5, 0, 3.00, 'quarantined', '', '', '2025-05-22 17:12:12', NULL, NULL, NULL, NULL),
-(13, 'BATCH-20250526034220', 'uploads/images.jpg', 'farm', 23, 1, '2025-05-10', 6, 3, 3, 0, 2.00, 'active', '', 'test', '2025-05-26 01:45:18', NULL, NULL, NULL, NULL),
-(14, 'BATCH-20250728201527', 'assets/default_batch.jpg', 'farm', 21, 2, '2025-04-04', 10, 5, 5, 0, 2.00, 'active', NULL, 'test', '2025-07-28 18:16:10', NULL, NULL, NULL, NULL),
-(15, 'BATCH-20250729135441', 'uploads/batches/BATCH-20250729135441.jpg', 'farm', 20, 7, '2025-07-12', 10, 3, 7, 0, 5.00, 'active', NULL, '', '2025-07-29 11:55:46', NULL, NULL, 'late', '2025-07-29'),
-(16, 'BATCH-20250729154018', 'uploads/batches/BATCH-20250729154018.jpg', 'farm', 25, 7, '2025-07-12', 5, 2, 3, 0, 3.00, 'active', NULL, '', '2025-07-29 13:41:01', NULL, 'qrcodes/batch_BATCH-20250729154018.png', NULL, NULL),
-(17, 'BATCH-20250729154207', 'uploads/batches/BATCH-20250729154207.jpg', 'farm', 21, 7, '2025-07-18', 3, 1, 2, 0, 3.00, 'active', NULL, '', '2025-07-29 13:42:38', NULL, NULL, NULL, NULL),
-(18, 'BATCH-20250729155636', 'uploads/batches/BATCH-20250729155636.jpg', 'farm', 21, 7, '2025-07-12', 5, 2, 3, 0, 3.00, 'active', NULL, '', '2025-07-29 13:57:05', NULL, 'qrcodes/batch_BATCH-20250729155636.png', 'early', '2025-07-30');
+INSERT INTO `pig_batches` (`id`, `batch_id`, `photo`, `source`, `sow_id`, `breed_id`, `birth_date`, `total_pigs`, `male_count`, `female_count`, `weight_avg`, `status`, `location`, `remark`, `created_at`, `batch_date`, `qr_code`, `nursery_transfer_type`, `nursery_transfer_date`, `deceased_count`) VALUES
+(1, 'BATCH-20250508150734', 'uploads/batches/BATCH-20250508150734.jpg', 'farm', 25, 1, '2025-03-07', 7, 6, 4, 0.92, 'active', '', 'TEST', '2025-05-08 13:08:22', NULL, 'qrcodes/batch_BATCH-20250508150734.png', NULL, NULL, 0),
+(2, 'BATCH-20250518151927', 'uploads/360_F_645220217_IyiCC4Rdh3eVjaThrAxLWQhV9CrQIphk.jpg', 'farm', 24, 3, '2025-05-10', 10, 5, 5, 2.00, 'active', '5', 'test', '2025-05-18 13:20:50', NULL, NULL, NULL, NULL, 0),
+(3, 'BATCH-20250518152329', 'uploads/batches/BATCH-20250518152329.jpg', 'farm', 24, 1, '2025-05-03', 8, 3, 5, 3.00, 'active', '5', 'rer', '2025-05-18 13:24:16', NULL, NULL, NULL, NULL, 0),
+(4, 'BATCH-20250518154138', 'uploads/batches/BATCH-20250518154138.jpg', 'external', NULL, 1, '2025-04-12', 0, 0, 0, 2.00, 'sold', '2', 'texs', '2025-05-18 13:42:44', NULL, NULL, NULL, NULL, 0),
+(5, 'BATCH-20250518162911', 'uploads/batches/BATCH-20250518162911.jpg', 'farm', 22, 5, '2025-05-07', 9, 2, 7, 0.00, 'active', '', '', '2025-05-18 14:30:12', NULL, NULL, NULL, NULL, 0),
+(6, 'BATCH-20250518212150', 'uploads/batches/BATCH-20250518212150.jpg', 'farm', 22, 3, '2025-05-05', 10, 7, 3, 2.00, 'active', 'nursery', 'tr', '2025-05-18 19:22:52', NULL, NULL, NULL, NULL, 0),
+(7, 'BATCH-20250518212729', 'uploads/batches/BATCH-20250518212729.jpg', 'farm', 22, 1, '2025-04-23', 12, 4, 8, 2.00, 'active', 'fattening', 're', '2025-05-18 19:28:08', NULL, NULL, NULL, NULL, 0),
+(8, 'BATCH-20250518213805', 'uploads/batches/BATCH-20250518213805.jpg', 'farm', 22, 3, '2025-05-10', 10, 3, 7, 2.00, 'active', 'nursery', 're', '2025-05-18 19:38:32', NULL, NULL, NULL, NULL, 0),
+(9, 'BATCH-20250522180552', 'uploads/67f228783bfa8_images (1).jpg', 'farm', 20, 3, '2025-05-17', 12, 6, 6, 2.00, 'active', NULL, '', '2025-05-22 16:06:39', NULL, NULL, NULL, NULL, 0),
+(10, 'BATCH-20250522182555', 'uploads/batches/BATCH-20250522182555.jpg', 'farm', 21, 3, '2025-05-17', 15, 10, 5, 2.00, 'active', NULL, '', '2025-05-22 16:26:43', NULL, NULL, NULL, NULL, 0),
+(11, 'BATCH-20250522185030', 'uploads/360_F_645220217_IyiCC4Rdh3eVjaThrAxLWQhV9CrQIphk.jpg', 'farm', 20, 1, '2025-05-01', 10, 5, 5, 3.00, 'active', '', '', '2025-05-22 16:52:01', NULL, NULL, NULL, NULL, 0),
+(12, 'BATCH-20250522191120', 'uploads/batches/BATCH-20250522191120.jpg', 'farm', 21, 3, '2025-03-15', 10, 5, 5, 3.00, 'quarantined', '', '', '2025-05-22 17:12:12', NULL, NULL, NULL, NULL, 0),
+(13, 'BATCH-20250526034220', 'uploads/images.jpg', 'farm', 23, 1, '2025-05-10', 6, 3, 3, 2.00, 'active', '', 'test', '2025-05-26 01:45:18', NULL, NULL, NULL, NULL, 0),
+(14, 'BATCH-20250728201527', 'assets/default_batch.jpg', 'farm', 21, 2, '2025-04-04', 10, 5, 5, 2.00, 'active', NULL, 'test', '2025-07-28 18:16:10', NULL, NULL, NULL, NULL, 0),
+(15, 'BATCH-20250729135441', 'uploads/batches/BATCH-20250729135441.jpg', 'farm', 20, 7, '2025-07-12', 10, 3, 7, 5.00, 'active', NULL, '', '2025-07-29 11:55:46', NULL, NULL, 'late', '2025-07-29', 0),
+(16, 'BATCH-20250729154018', 'uploads/batches/BATCH-20250729154018.jpg', 'farm', 25, 7, '2025-07-12', 5, 2, 3, 3.00, 'active', NULL, '', '2025-07-29 13:41:01', NULL, 'qrcodes/batch_BATCH-20250729154018.png', NULL, NULL, 0),
+(17, 'BATCH-20250729154207', 'uploads/batches/BATCH-20250729154207.jpg', 'farm', 21, 7, '2025-07-18', 3, 1, 2, 3.00, 'active', NULL, '', '2025-07-29 13:42:38', NULL, NULL, NULL, NULL, 0),
+(18, 'BATCH-20250729155636', 'uploads/batches/BATCH-20250729155636.jpg', 'farm', 21, 7, '2025-07-12', 5, 2, 3, 3.00, 'active', NULL, '', '2025-07-29 13:57:05', NULL, 'qrcodes/batch_BATCH-20250729155636.png', 'early', '2025-07-30', 0),
+(19, 'BATCH-20250910082932', 'assets/default_batch.jpg', 'farm', 25, 7, '2025-09-06', 10, 5, 5, 3.00, 'active', NULL, '', '2025-09-10 06:30:50', NULL, 'qrcodes/batch_BATCH-20250910082932.png', NULL, NULL, 0),
+(20, 'BATCH-20250910083539', 'assets/default_batch.jpg', 'farm', 20, 9, '2025-09-06', 4, 2, 2, 2.00, 'active', NULL, '', '2025-09-10 06:36:08', NULL, 'qrcodes/batch_BATCH-20250910083539.png', NULL, NULL, 0);
 
 -- --------------------------------------------------------
 
@@ -1048,7 +1177,7 @@ CREATE TABLE `quarantine_batches` (
 INSERT INTO `quarantine_batches` (`id`, `batch_id`, `date_quarantined`, `num_quarantined`, `num_male`, `num_female`, `symptoms`, `notes`, `pen_id`, `is_full_batch`, `reported_by`, `time_reported`) VALUES
 (1, 'BATCH-20250522191120', '2025-05-23', 0, 1, 0, 'isc', 'ijcds', 7, 0, NULL, '2025-05-23 19:01:22'),
 (2, 'BATCH-20250522191120', '2025-05-23', 0, 1, 1, 'tets', 'ysu', 15, 0, NULL, '2025-05-23 19:08:02'),
-(3, 'BATCH-20250522191120', '2025-05-23', 4, 0, 1, 'tet', 't', 17, 1, NULL, '2025-05-23 19:09:03');
+(3, 'BATCH-20250522191120', '2025-05-23', 4, 0, 1, 'tet', 'p', 17, 1, NULL, '2025-05-23 19:09:03');
 
 -- --------------------------------------------------------
 
@@ -1176,7 +1305,7 @@ CREATE TABLE `supply_inventory` (
 --
 
 INSERT INTO `supply_inventory` (`id`, `name`, `category`, `quantity`, `unit`, `expiry_date`, `supplier`) VALUES
-(1, 'Respesure', 'Vaccine', 10, '10ml', '2025-10-28', 'jlc farm supplies');
+(1, 'Respesure', 'Vaccine', 9, '10ml', '2025-10-28', 'jlc farm supplies');
 
 -- --------------------------------------------------------
 
@@ -1229,16 +1358,22 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `first_name`, `middle_name`, `last_name`, `suffix`, `username`, `password`, `role`, `created_at`, `status`, `sex`, `age`, `address`, `contact_number`, `birthday`, `last_login`, `profile_img`, `province`, `municipality`, `barangay`, `street_address`) VALUES
-(1, NULL, NULL, NULL, NULL, 'admin5', 'd4e8e6deaa7b1f8381e09e3e6b83e36f0b681c5c', 'admin', '2025-04-03 11:50:28', 1, 'male', 19, 'cabugao, ilocos sur', '09929591452', '2005-06-07', '2025-07-30 11:58:51', 'uploads/profiles/profile_68309a6b080500.83751210.png', NULL, NULL, NULL, NULL),
+(1, NULL, NULL, NULL, NULL, 'admin5', 'd4e8e6deaa7b1f8381e09e3e6b83e36f0b681c5c', 'admin', '2025-04-03 11:50:28', 1, 'male', 19, 'cabugao, ilocos sur', '09929591452', '2005-06-07', '2026-02-24 11:57:13', 'uploads/profiles/profile_68309a6b080500.83751210.png', NULL, NULL, NULL, NULL),
 (2, NULL, NULL, NULL, NULL, 'employee1', 'd4e8e6deaa7b1f8381e09e3e6b83e36f0b681c5c', 'employee', '2025-04-03 11:51:09', 1, 'male', 22, 'cabugao, ilocos sur', '0198390235', NULL, NULL, NULL, NULL, NULL, NULL, NULL),
 (3, NULL, NULL, NULL, NULL, 'admin6', 'd4e8e6deaa7b1f8381e09e3e6b83e36f0b681c5c', 'veterinarian', '2025-04-03 11:58:47', 1, 'male', 0, '', '09778324038', NULL, NULL, NULL, NULL, NULL, NULL, NULL),
 (4, NULL, NULL, NULL, NULL, 'owner1', 'd4e8e6deaa7b1f8381e09e3e6b83e36f0b681c5c', 'owner', '2025-04-03 12:12:56', 0, 'male', 0, '', '', NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(10, NULL, NULL, NULL, NULL, 'Yza', 'fa7b462bab58afae1f822889452d9d825ed5fac7', 'veterinarian', '2025-05-19 04:14:16', 1, '', 20, 'Bangued, Abra', '09066352613', '2004-09-23', NULL, NULL, NULL, NULL, NULL, NULL),
+(10, NULL, NULL, NULL, NULL, 'Yza', 'fa7b462bab58afae1f822889452d9d825ed5fac7', 'employee', '2025-05-19 04:14:16', 1, '', 20, 'Bangued, Abra', '09066352613', '2004-09-23', '2025-10-02 22:09:03', NULL, NULL, NULL, NULL, NULL),
 (11, NULL, NULL, NULL, NULL, 'test', 'd4e8e6deaa7b1f8381e09e3e6b83e36f0b681c5c', 'admin', '2025-05-22 19:35:45', 1, 'male', 22, 'cabugao, ilocos sur', '09929591452', '2003-01-22', NULL, 'uploads/profiles/profile_682f7c911b8e74.63635523.jpg', NULL, NULL, NULL, NULL),
 (12, NULL, NULL, NULL, NULL, 'sayaan', '006e4e24b52755dcf602bf1bd18c076be9a5776e', 'admin', '2025-05-23 12:56:45', 1, 'male', 0, 'Bangued, Abra', '09614889820', '2025-05-03', '2025-05-24 15:07:57', 'uploads/profiles/profile_6830708d508836.02993352.jpg', NULL, NULL, NULL, NULL),
 (13, NULL, NULL, NULL, NULL, 'christian', 'd16d33e9c4548928adde0ce490072be1d94f67e1', 'employee', '2025-05-26 01:36:05', 1, 'male', 20, 'quezon, cabugao, ilocos sur', '0198390235', '2004-07-07', NULL, 'uploads/profiles/profile_685ba63bae7ab7.18090812.png', NULL, NULL, NULL, NULL),
 (14, NULL, NULL, NULL, NULL, 'unpadmin', '40bd001563085fc35165329ea1ff5c5ecbdbbeef', 'admin', '2025-07-07 13:57:50', 0, 'male', 21, 'quezon, cabugao, ilocos sur', '0198390235', '2004-02-04', '2025-07-07 14:04:33', NULL, NULL, NULL, NULL, NULL),
-(15, 'tests', 'yests', 'say', 'sabh', 'tian', '$2y$10$t3S4XsAhpRelfcaa5wmQTe.3MgvV7h6O.eupd7E3MNQSK9iAfzbYi', 'employee', '2025-07-28 10:07:51', 0, 'female', 6, 'quezon, cabugao, ilocos sur', '097765849766666', '2019-02-12', NULL, 'uploads/profiles/profile_68874c11a63032.32980833.png', 'Metro Manila', 'Quezon City', 'Bagong Pag-asa', 'quezon, cabugao, ilocos sur');
+(15, 'tests', 'yests', 'say', 'sabh', 'tian', '$2y$10$t3S4XsAhpRelfcaa5wmQTe.3MgvV7h6O.eupd7E3MNQSK9iAfzbYi', 'employee', '2025-07-28 10:07:51', 0, 'female', 6, 'quezon, cabugao, ilocos sur', '097765849766666', '2019-02-12', NULL, 'uploads/profiles/profile_68874c11a63032.32980833.png', 'Metro Manila', 'Quezon City', 'Bagong Pag-asa', 'quezon, cabugao, ilocos sur'),
+(16, NULL, NULL, NULL, NULL, 'meshamlang', '$2y$10$.8KdqSsBXaR6.PusiZDFOerx6in7QZo4I3J7NgzoC1Wa9eJShP3JK', 'veterinarian', '2025-08-05 06:19:07', 1, 'female', 0, '', '0961 488 9820', '2025-08-02', NULL, NULL, 'Ilocos Sur', 'Candon City', 'Madalaem', 'tets'),
+(17, NULL, NULL, NULL, NULL, 'maejonss', '$2y$10$AqK4KlMm9z.x17rq8zlOIey2Vp/tPV7P..sc6l45Vhxciod9MW3Iu', 'veterinarian', '2025-08-05 06:21:37', 1, 'female', 0, '', '0961 488 9820', '2025-08-23', NULL, NULL, 'Ilocos Sur', 'Candon City', 'Acat', 'test'),
+(18, 'idol', 'M.', 'SEXY', '', 'idolmongsexy', 'd4e8e6deaa7b1f8381e09e3e6b83e36f0b681c5c', 'veterinarian', '2025-08-05 15:24:02', 1, 'male', 27, '', '0934 567 8844', '1997-11-09', '2025-10-02 22:10:39', NULL, 'Metro Manila', 'Manila', 'Sampaloc', 'asdfghjkl'),
+(19, 'idol', 'L.', 'SEXY', NULL, 'test3', '$2y$10$cnckAxwfyhx384NDIZr4y.Ptmljgh678E6TqEMPzwEFpCsX3JBKfq', 'employee', '2025-09-10 06:41:57', 1, 'male', 0, '', '0934 567 8844', '2025-09-06', NULL, NULL, 'Ilocos Sur', 'Narvacan', 'Legaspi', 'asdfghjkl'),
+(20, 'idol', 'L.', 'SEXY', NULL, 'SESUCA', '$2y$10$h2blzRAjlzfVFda2FPj.VOO1c7MrYw8GLw8If5QsHuoBvvOO.R.j.', 'owner', '2025-10-02 22:24:25', 1, 'male', 0, 'asdfghjkl, Aggay, Narvacan, Ilocos Sur', '0934 567 8844', '2025-10-02', NULL, NULL, 'Ilocos Sur', 'Narvacan', 'Aggay', 'asdfghjkl'),
+(21, 'idol', 'L.', 'SEXY', NULL, '1562', 'de512c1a769540635decc71b2086529d5ac4a5b5', 'owner', '2025-10-02 22:26:54', 1, 'female', 0, '', '0934 567 8844', '2025-10-01', '2025-10-02 22:27:06', NULL, 'Ilocos Sur', 'Narvacan', 'Aggay', 'asdfghjkl');
 
 -- --------------------------------------------------------
 
@@ -1264,7 +1399,7 @@ CREATE TABLE `user_settings` (
 --
 
 INSERT INTO `user_settings` (`id`, `user_id`, `theme_mode`, `language`, `font_style`, `notifications`, `font_size`, `timezone`, `created_at`, `updated_at`) VALUES
-(1, 1, 'light', 'en', 'Arial', 0, 18, 'UTC', '2025-05-20 18:55:15', '2025-07-29 22:27:03');
+(1, 1, 'light', 'en', 'Arial', 0, 18, 'UTC', '2025-05-20 18:55:15', '2025-07-31 01:18:09');
 
 --
 -- Indexes for dumped tables
@@ -1442,19 +1577,19 @@ ALTER TABLE `user_settings`
 -- AUTO_INCREMENT for table `audit_logs`
 --
 ALTER TABLE `audit_logs`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=555;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=678;
 
 --
 -- AUTO_INCREMENT for table `batch_pens`
 --
 ALTER TABLE `batch_pens`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
 
 --
 -- AUTO_INCREMENT for table `breed`
 --
 ALTER TABLE `breed`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT for table `feed_and_supplies`
@@ -1466,7 +1601,7 @@ ALTER TABLE `feed_and_supplies`
 -- AUTO_INCREMENT for table `feed_inventory`
 --
 ALTER TABLE `feed_inventory`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `feed_usage`
@@ -1514,7 +1649,7 @@ ALTER TABLE `pigs`
 -- AUTO_INCREMENT for table `pig_batches`
 --
 ALTER TABLE `pig_batches`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
 
 --
 -- AUTO_INCREMENT for table `pig_batch_health_records`
@@ -1574,7 +1709,7 @@ ALTER TABLE `supply_usage`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
 
 --
 -- AUTO_INCREMENT for table `user_settings`

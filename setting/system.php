@@ -8,8 +8,8 @@ function audit_log($user_id, $action, $details = '') {
     $stmt->execute([$user_id, $action, $details]);
 }   
 //System Settings
-define('NAME_', 'SESUCA FARM');
-define('NAME_X', 'PIGGERY MANAGEMENT SYSTEM');
+define('NAME_', 'IHOG SBS');
+define('NAME_X', 'SBS PIGGERY MANAGEMENT SYSTEM');
 
 
 ob_start();
